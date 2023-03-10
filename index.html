@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Foodie's page</title>
+  </head>
+  <body>
+      <section class="showcase">
+            <header>
+              <h2 class="logo">Foodie<br>me;)</h2>
+              <div class="toggle"></div>
+            </header>
+
+            <video src="food bg vid 1.mp4" muted loop autoplay></video>
+
+            <div class="overlay"></div>
+
+            <div class="text">
+              <h2>Never stop</h2>
+              <h3>Eating!</h3>
+              <p>
+                Eating is not merely a material pleasure. Eating well gives a
+                spectacular joy to life and contributes immensely to goodwill
+                and happy companionship. <br />It is of great importance to the
+                morale.
+              </p>
+              <a href="explore.html">Explore</a>
+            </div>
+            <ul class="social">
+              <li>
+                <a href="#"
+                  ><img src="https://i.ibb.co/x7P24fL/facebook.png" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="https://i.ibb.co/ySwtH4B/instagram.png" alt=""
+                /></a>
+              <li>
+                <a href="#"
+                  ><img src="https://i.ibb.co/Wnxq2Nq/twitter.png" alt=""
+                /></a>
+              </li>
+            </ul>
+          </section>
+
+          <div class="menu">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="explore.html">Cuisine</a></li>
+              <li><a href="#">More</a></li>
+              <li><a href="#">Share</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          
+         <div class="cards">
+          <div class="image">
+              <img src="muglai.jpg">
+          </div>
+
+          <div class="namee">
+           <h1> India </h1>
+
+           <button>Explore</button>
+          </div>    
+      </div>
+          <script>
+               const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+          </script>
+       </body>
+      </html>
+    </section>
+  </body>
+</html>
